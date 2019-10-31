@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" verbose="10" name="Mobile_Farm" annotations="JDK" parallel="tests">
+    <test name="Mobile_Farm">
+        <classes>
+            <class name="mobile_farm.AvailableDevicesTest"/>
+        </classes>
+    </test>
+
+</suite>
